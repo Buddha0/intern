@@ -1,0 +1,59 @@
+@import "./styles/SECTION-1-CSS/section_one.css";
+@import "./styles/SECTION-2-CSS/section_two.css";
+@import "./styles/SECTION-3-CSS/section_three.css";
+@import "./styles/SECTION-4-CSS/section_four.css";
+@import "./styles/SECTION-5-CSS/section_five.css";
+@import "./styles/SECTION-6-CSS/section_six.css";
+@import "./styles/SECTION-7-CSS/section_seven.css";
+@import "./styles/SECTION-8-CSS/section_eight.css";
+@import "./styles/SECTION-9-CSS/section_nine.css";
+@import "./styles/FOOTER-CSS/footer.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 12.4rem;
+  height: 6rem;
+}
+
+.btn {
+  width: 16.1rem;
+  height: 5rem;
+  background-color: #b72126;
+  border: none;
+  color: white;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn_secondary {
+  border: 1px solid #b72126;
+  width: 16.1rem;
+  height: 5rem;
+  background-color: transparent;
+  color: #faae42;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

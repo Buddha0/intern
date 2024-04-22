@@ -1,0 +1,106 @@
+.section_nine {
+  display: flex;
+  justify-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+}
+.section_nine .section_nine_container {
+  width: 100%;
+  max-width: 1290px;
+  text-align: center;
+}
+.section_nine .section_nine_container h1 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+.section_nine .section_nine_container .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 3rem;
+}
+.section_nine .section_nine_container .cards .card {
+  text-align: left;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 20px 40px 0px rgba(28, 51, 84, 0.1);
+}
+.section_nine .section_nine_container .cards .card .img_container {
+  width: 100%;
+  position: relative;
+}
+.section_nine .section_nine_container .cards .card .img_container .card_btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "Nunito Sans";
+  background-color: red;
+}
+.section_nine .section_nine_container .cards .card .img_container .red {
+  background: #ef4138;
+}
+.section_nine .section_nine_container .cards .card .img_container .purple {
+  background: #8d3e88;
+}
+.section_nine .section_nine_container .cards .card .img_container .green {
+  background-color: #3ea348;
+}
+.section_nine .section_nine_container .cards .card .description {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section_nine .section_nine_container .cards .card .description .infos {
+  display: flex;
+  gap: 3rem;
+}
+.section_nine .section_nine_container .cards .card .description .infos .info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section_nine .section_nine_container .cards .card .description .infos .info p {
+  font-size: 1.6rem;
+  font-family: "Nunito Sans";
+}
+.section_nine .section_nine_container .cards .card .description .infos .info img {
+  width: 2rem;
+}
+.section_nine .section_nine_container .cards .card .description h1 {
+  font-size: 22px;
+  margin-bottom: 0rem;
+}
+.section_nine .section_nine_container .cards .card .description .btn_yellow {
+  border: 1px solid #faae42;
+  background-color: white;
+  color: #faae42;
+}
+
+@media (max-width: 1020px) {
+  .section_nine {
+    padding: 10rem 5rem !important;
+  }
+}
+@media (max-width: 950px) {
+  .section_nine {
+    padding: 10rem 5rem !important;
+  }
+  .section_nine .section_nine_container .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 650px) {
+  .section_nine {
+    padding: 10rem 5rem !important;
+  }
+  .section_nine .section_nine_container .cards {
+    grid-template-columns: 1fr !important;
+  }
+}/*# sourceMappingURL=section_nine.css.map */

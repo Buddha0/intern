@@ -1,0 +1,85 @@
+.section_seven {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 10rem;
+}
+@media (max-width: 500px) {
+  .section_seven {
+    padding: 10rem 2rem !important;
+  }
+}
+.section_seven .section_seven_container {
+  width: 100%;
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1020px) {
+  .section_seven .section_seven_container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+}
+.section_seven .section_seven_container .container_left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: Raleway;
+}
+.section_seven .section_seven_container .container_left h1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  max-width: 400px;
+}
+@media (max-width: 1020px) {
+  .section_seven .section_seven_container .container_left h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    max-width: 100%;
+  }
+}
+.section_seven .section_seven_container .container_left h1 span {
+  color: #2467ec;
+}
+.section_seven .section_seven_container .container_left p {
+  font-size: 1.6rem;
+  max-width: 550px;
+  line-height: 2.5rem;
+}
+.section_seven .section_seven_container .container_right {
+  position: relative;
+}
+.section_seven .section_seven_container .container_right .main_img_container {
+  position: relative;
+}
+.section_seven .section_seven_container .container_right .main_img_container .main_img {
+  width: 50.3rem;
+}
+@media (max-width: 700px) {
+  .section_seven .section_seven_container .container_right .main_img_container .main_img {
+    width: 100%;
+  }
+}
+.section_seven .section_seven_container .container_right .main_img_container .mst_img_container {
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 20px 80px 0px rgba(28, 51, 84, 0.2);
+  padding: 20px;
+}
+.section_seven .section_seven_container .container_right .main_img_container .mst_img {
+  width: 10.9rem;
+}
+.section_seven .section_seven_container .container_right .blob {
+  position: absolute;
+  top: -100px;
+  z-index: -1;
+  width: 59.6rem;
+}
+@media (max-width: 700px) {
+  .section_seven .section_seven_container .container_right .blob {
+    width: 100%;
+  }
+}/*# sourceMappingURL=section_seven.css.map */

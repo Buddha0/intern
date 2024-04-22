@@ -1,0 +1,168 @@
+.section_three {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 10rem;
+  position: relative;
+}
+.section_three .wave {
+  position: absolute;
+  width: 6.6rem;
+  top: 70px;
+  right: 20px;
+}
+.section_three .section_three_container {
+  width: 100%;
+  padding-bottom: 10rem;
+  max-width: 1290px;
+}
+.section_three .section_three_container .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+  align-items: center;
+}
+.section_three .section_three_container .grid img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.section_three .section_three_container .grid .description {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 3rem;
+  font-family: Raleway;
+}
+.section_three .section_three_container .grid .description h1 {
+  font-size: 3.6rem;
+  max-width: 480px;
+  font-weight: 400;
+}
+.section_three .section_three_container .grid .description p {
+  font-size: 1.6rem;
+  max-width: 480px;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+.section_three .section_three_container .grid .description .lists {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.section_three .section_three_container .grid .description .lists .list {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.section_three .section_three_container .grid .description .lists .list .outer_div {
+  background-color: #ffe8c8;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_three .section_three_container .grid .description .lists .list .outer_div .inner_div {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 100%;
+  background-color: #faae42;
+}
+.section_three .section_three_container .grid .description .lists .list p {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 1020px) {
+  .section_three {
+    padding: 0rem 5rem !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem;
+    position: relative;
+  }
+  .section_three .wave {
+    position: absolute;
+    width: 6.6rem;
+    top: 70px;
+    right: 20px;
+  }
+  .section_three .section_three_container {
+    width: 100%;
+    padding-bottom: 10rem;
+    max-width: 1290px;
+  }
+  .section_three .section_three_container .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7rem;
+    align-items: center;
+  }
+  .section_three .section_three_container .grid img {
+    object-fit: contain;
+    width: 60%;
+    height: 100%;
+  }
+  .section_three .section_three_container .grid .description {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+    font-family: Raleway;
+    width: 100%;
+  }
+  .section_three .section_three_container .grid .description h1 {
+    font-size: 3.6rem;
+    max-width: 100%;
+    font-weight: 400;
+  }
+  .section_three .section_three_container .grid .description p {
+    font-size: 1.6rem;
+    max-width: 100%;
+    line-height: 2.5rem;
+    font-weight: 400;
+  }
+  .section_three .section_three_container .grid .description .lists {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .section_three .section_three_container .grid .description .lists .list {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  .section_three .section_three_container .grid .description .lists .list .outer_div {
+    background-color: #ffe8c8;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section_three .section_three_container .grid .description .lists .list .outer_div .inner_div {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 100%;
+    background-color: #faae42;
+  }
+  .section_three .section_three_container .grid .description .lists .list p {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  .section_three {
+    padding: 10rem 2rem !important;
+  }
+}/*# sourceMappingURL=section_three.css.map */
