@@ -15,33 +15,6 @@
   left: 10%;
   bottom: 0px;
 }
-.section_five .eclipse_top {
-  position: absolute;
-  width: 18rem;
-  object-fit: contain;
-  top: 0px;
-  left: 55%;
-}
-.section_five .section_five_container {
-  width: 100%;
-  max-width: 1290px;
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-}
-.section_five .section_five_container .plus {
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  right: 0px;
-  top: -10px;
-}
-.section_five .section_five_container p {
-  font-size: 1.6rem;
-  color: white;
-  width: 243px;
-}
-
 @media (max-width: 1600px) {
   .section_five .eclipse_left {
     left: 5%;
@@ -51,25 +24,36 @@
   .section_five .eclipse_left {
     left: 2%;
   }
-  .section_five .eclipse_top {
-    position: absolute;
-    width: 14rem;
-    object-fit: contain;
-    top: 0px;
-    left: 55%;
-  }
 }
 @media (max-width: 800px) {
   .section_five .eclipse_left {
-    left: 0%;
+    left: -6%;
   }
+}
+.section_five .eclipse_top {
+  position: absolute;
+  width: 18rem;
+  object-fit: contain;
+  top: 0px;
+  left: 55%;
+}
+@media (max-width: 1300px) {
   .section_five .eclipse_top {
-    position: absolute;
     width: 14rem;
-    object-fit: contain;
-    top: 0px;
-    left: 55%;
   }
+}
+@media (max-width: 800px) {
+  .section_five .eclipse_top {
+    width: 14rem;
+    right: 0%;
+  }
+}
+.section_five .section_five_container {
+  width: 100%;
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 @media (max-width: 650px) {
   .section_five .section_five_container {
@@ -78,8 +62,20 @@
     gap: 3rem;
   }
 }
+.section_five .section_five_container .plus {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  right: 0px;
+  top: -10px;
+}
 @media (max-width: 380px) {
-  .section_five .eclipse_left {
-    left: -35px;
+  .section_five .section_five_container .plus {
+    right: -30px;
   }
+}
+.section_five .section_five_container p {
+  font-size: 1.6rem;
+  color: white;
+  width: 243px;
 }/*# sourceMappingURL=section_five.css.map */

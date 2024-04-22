@@ -14,6 +14,20 @@
       object-fit: contain;
       left: 10%;
       bottom: 0px;
+
+      @media(max-width:1600px){     
+            left: 5% ;     
+      }
+
+      @media(max-width:1300px){     
+            left: 2% ;             
+      }
+
+      @media(max-width:800px){
+  
+          left: -6% ;
+  
+      }
     }
   
     .eclipse_top {
@@ -22,6 +36,17 @@
       object-fit: contain;
       top: 0px;
       left: 55%;
+
+      @media(max-width:1300px){    
+          width: 14rem;     
+      }
+
+      @media(max-width:800px){
+     
+        width: 14rem;
+       right: 0%;
+    
+      }
     }
   
     .section_five_container {
@@ -30,15 +55,27 @@
       display: flex;
       justify-content: space-around;
       position: relative;
+
+      @media(max-width:650px){
+      
+          flex-direction: column;
+          align-items: center;
+          gap: 3rem;
+    
+      }
      
   
       .plus {
         position: absolute;
         color: white;
         font-size: 20px;
-  
         right: 0px;
         top: -10px;
+
+      @media(max-width:380px){
+        right: -30px;
+      }
+      
       }
   
       p {
@@ -49,75 +86,5 @@
     }
   }
 
-  @media(max-width:1600px){
-    .section_five{
-      .eclipse_left{
-        left: 5% ;
-      }
-    }
-  }
 
-  @media(max-width:1300px){
-    .section_five{
-      .eclipse_left{
-        left: 2% ;
-      }
 
-      .eclipse_top {
-        position: absolute;
-        width: 14rem;
-        object-fit: contain;
-        top: 0px;
-        left: 55%;
-      }
-    
-    }
-  }
-
-  @media(max-width:800px){
-    .section_five{
-      .eclipse_left{
-        left: 0% ;
-      }
-
-      .eclipse_top {
-        position: absolute;
-        width: 14rem;
-        object-fit: contain;
-        top: 0px;
-        left: 55%;
-      }
-
-  
-    
-    }
-  }
-
-  @media(max-width:650px){
-    .section_five{
-      
-     
-   .section_five_container{
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-
-   }
-
-  
-    
-    }
-  }
-
-  @media(max-width:380px){
-    .section_five{
-      
-     .eclipse_left{
-      left: -35px;
-     }
-  
-
-  
-    
-    }
-  }
