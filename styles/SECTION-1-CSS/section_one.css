@@ -108,6 +108,12 @@
   justify-content: space-evenly;
   position: relative;
 }
+.section_one .hero_section .hero_section_container .thunder_icon {
+  position: absolute;
+  width: 4.3rem;
+  right: 6%;
+  top: 10%;
+}
 @media (max-width: 1400px) {
   .section_one .hero_section .hero_section_container {
     padding: 15rem;
