@@ -3,7 +3,6 @@
   width: 100%;
   position: relative;
   z-index: 33;
-  background-image: url(./images/bottom.png), linear-gradient(to right, #fafafa, rgba(240, 158, 158, 0.1));
 }
 .section_one nav {
   display: flex;
@@ -90,6 +89,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.section_one .hero_section .vector_top {
+  position: absolute;
+  top: 0;
+  width: 59.71rem;
+  left: 0px;
+  top: -50px;
 }
 .section_one .hero_section .hero_section_container {
   padding: 15rem;
@@ -142,6 +150,17 @@
 .section_one .hero_section .hero_section_container .container_right .big_img_container {
   position: relative;
   max-width: 38rem;
+}
+.section_one .hero_section .hero_section_container .container_right .big_img_container .vector_middle {
+  width: 40.1rem;
+  left: 10rem;
+  position: absolute;
+}
+.section_one .hero_section .hero_section_container .container_right .big_img_container .vector_last {
+  width: 47.2rem;
+  position: absolute;
+  left: -50%;
+  bottom: -30%;
 }
 @media (max-width: 1400px) {
   .section_one .hero_section .hero_section_container .container_right .big_img_container {
