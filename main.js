@@ -9,10 +9,15 @@ nav_btn.addEventListener("click",()=>{
    if(nav_items_show.classList.contains("nav_links_overlay_show")){
       nav_ul.classList.add("nav_ul_hide")
       body.style.overflowY = "hidden";
+
+     
       
    }else{
       nav_ul.classList.remove("nav_ul_hide")
-      document.body.style.removeProperty("overflow-y");
+      body.style.removeProperty("overflow-y");
     
    }
 })
+
+
+
