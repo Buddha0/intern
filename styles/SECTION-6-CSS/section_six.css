@@ -147,6 +147,11 @@
   top: 24%;
   z-index: -1;
 }
+@media (max-width: 330px) {
+  .section_six .section_six_container .left_container .cloud {
+    width: 40rem;
+  }
+}
 .section_six .section_six_container .right_container {
   font-family: Raleway;
   display: flex;

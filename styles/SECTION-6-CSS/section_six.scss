@@ -54,6 +54,7 @@
         width: 47.5rem;
         position: relative;
         z-index: -1;
+        
 
         @media(max-width:1100px){
           width: 40rem;
@@ -151,6 +152,10 @@
         left: -50px;
         top: 24%;
         z-index: -1;
+
+        @media(max-width:330px){
+          width: 40rem;
+        }
       }
     }
 

@@ -93,3 +93,34 @@ footer {
   }
 }
 
+
+
+@media(max-width:500px){
+  footer{
+  padding: 10rem 2rem;
+  margin-top: 10rem;
+    .footer_container{
+      flex-direction: column;
+      gap:4rem;
+
+      .col_1{
+        width: 100%;
+ 
+      }
+   
+
+      .footer_wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .col_2,.col_3,.col_4{
+          align-items: flex-start;
+          width: 100%;
+       
+     
+        }
+      }
+    }
+  }
+}

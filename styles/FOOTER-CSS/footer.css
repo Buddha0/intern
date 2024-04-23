@@ -70,4 +70,26 @@ footer .footer_container .col_contents p {
     align-items: flex-start;
     width: 100%;
   }
+}
+@media (max-width: 500px) {
+  footer {
+    padding: 10rem 2rem;
+    margin-top: 10rem;
+  }
+  footer .footer_container {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  footer .footer_container .col_1 {
+    width: 100%;
+  }
+  footer .footer_container .footer_wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .footer_container .footer_wrapper .col_2, footer .footer_container .footer_wrapper .col_3, footer .footer_container .footer_wrapper .col_4 {
+    align-items: flex-start;
+    width: 100%;
+  }
 }/*# sourceMappingURL=footer.css.map */

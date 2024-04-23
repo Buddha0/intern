@@ -1,99 +1,11 @@
+
 .section_one {
   background-color: #fafafa;
   width: 100%;
   position: relative;
   z-index: 33;
-  
- 
+  overflow-x: hidden;
 
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0.2rem 0.2rem 0.3rem rgb(199, 199, 199);
-    height: 10rem;
-    width: 100%;
-    background-color: white;
-    z-index: 999;
-    font-family: "Nunito Sans", sans-serif;
-
-    .nav_container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      max-width: 1920px;
-      padding: 0rem 10rem;
-
-      @media (max-width: 1700px) {
-        padding: 0rem 5rem;
-      }
-
-      @media (max-width: 500px) {
-       padding: 0rem 2rem;
-          
-         }
-
-      .nav_right {
-        display: flex;
-        gap: 4rem;
-        align-items: center;
-
-        .nav_ul {
-          display: flex;
-          text-decoration: none;
-          list-style: none;
-          gap: 2rem;
-
-          @media (max-width: 800px) {
-            display: none;
-          }
-
-          .nav_li {
-            cursor: pointer;
-            font-size: 16px;
-          }
-        }
-
-        .nav_buttons {
-          display: flex;
-          gap: 2rem;
-
-          .nav_btn {
-            @media (max-width: 800px) {
-              display: none;
-            }
-          }
-
-          .line_container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 0.4rem;
-            align-items: center;
-            padding: 0.5rem;
-            border-radius: 0.4rem;
-            cursor: pointer;
-            height: 5rem;
-            width: 4.9rem;
-            box-shadow:
-              0.02rem 0.1rem 0.3rem 0px rgba(0, 0, 0, 0.02),
-              0px 0px 0px 0.1rem rgba(27, 31, 35, 0.15);
-
-            .line {
-              border: 0.1rem solid rgb(0, 0, 0);
-              width: 2rem;
-              height: 0.2rem;
-            }
-
-            .line_right {
-              margin-left: 1.5rem;
-            }
-          }
-        }
-      }
-    }
-  }
 
   .hero_section {
     display: flex;
@@ -103,11 +15,12 @@
     align-items: center;
     position: relative;
     overflow: hidden;
+    padding-top: 8rem;
 
-    .vector_top{
+    .vector_top {
       position: absolute;
-      top:0;
-      width:59.71rem;
+      top: 0;
+      width: 59.71rem;
 
       left: 0px;
       top: -50px;
@@ -122,15 +35,12 @@
       justify-content: space-evenly;
       position: relative;
 
-      .thunder_icon{
+      .thunder_icon {
         position: absolute;
         width: 4.3rem;
         right: 6%;
         top: 10%;
       }
-
-    
-    
 
       @media (max-width: 1400px) {
         padding: 15rem;
@@ -162,7 +72,6 @@
           align-items: flex-end;
           flex-direction: column-reverse;
           padding-right: 10rem;
-        
         }
 
         @media (max-width: 500px) {
@@ -173,13 +82,13 @@
           position: relative;
           max-width: 38rem;
 
-          .vector_middle{
-            width:40.1rem;
-           left: 10rem;
+          .vector_middle {
+            width: 40.1rem;
+            left: 10rem;
             position: absolute;
           }
 
-          .vector_last{
+          .vector_last {
             width: 47.2rem;
             position: absolute;
             left: -50%;
@@ -222,19 +131,16 @@
             @media (max-width: 410px) {
               left: 55px;
               bottom: 30px;
-             
             }
 
             @media (max-width: 370px) {
               left: 20px;
               bottom: 30px;
-             
             }
 
             @media (max-width: 340px) {
               left: 10px;
               bottom: 0px;
-             
             }
 
             p {
@@ -348,8 +254,7 @@
 
             @media (max-width: 340px) {
               font-size: 1.5rem;
-                
-               }
+            }
           }
 
           h1 {
@@ -366,8 +271,7 @@
             }
 
             @media (max-width: 340px) {
-           font-size: 3rem;
-             
+              font-size: 3rem;
             }
           }
 
@@ -388,8 +292,7 @@
 
             @media (max-width: 340px) {
               font-size: 2rem;
-                
-               }
+            }
           }
 
           .hero_section_btns {
@@ -413,8 +316,7 @@
       position: absolute;
       bottom: 13rem;
       left: 15.5rem;
-      box-shadow:
-        rgba(50, 50, 93, 0.25) 0px 5rem 10rem -2rem,
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 5rem 10rem -2rem,
         rgba(0, 0, 0, 0.3) 0px 3rem 6rem -3rem;
       padding: 1rem 1rem;
       border-radius: 1.2rem;
@@ -439,4 +341,3 @@
     }
   }
 }
-
